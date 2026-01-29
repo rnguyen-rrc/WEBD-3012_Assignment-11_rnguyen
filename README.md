@@ -25,10 +25,8 @@ Get the web application running on localhost:7775 (127.0.0.1:7775)
 	b. Push this folder to git using Git Desktop by following these steps
 	
 		i. File -> Add local repository
-
    		ii. Under Local path, browse to the created folder 'WEBD-3012_Assignment-11_rnguyen'
-   
-   	iii. Click 'Add repository'
+   		iii. Click 'Add repository'
    
    	iv. Click 'create a repository'
    
