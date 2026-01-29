@@ -150,7 +150,7 @@ Get the web application running on localhost:7775 (127.0.0.1:7775)
    c. In GitHub Desktop, navigate to the Changes view. In the file list, we will see all the changes that we have made and all the new files created.
    At the bottom of the Changes list, enter a commit message to provide brief description. Click 'Commit to main', then click 'Push origin' to push changes to the repository.
 
-	c. **Additional Notes**:
+	d. **Additional Notes**:
 
 	Commands to start/stop container manually if needed
 
