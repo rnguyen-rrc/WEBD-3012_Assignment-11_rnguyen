@@ -11,10 +11,11 @@ Get the web application running on localhost:7775 (127.0.0.1:7775)
 	b. Type following commands
 
 		node -v
+
 		(Mine returned v24.12.0)
 
 		npm -v
-		***********************
+
 		(Mine returned 11.7.0)
    Confirm that Node.js has been already installed, then proceed to next step
 
@@ -23,12 +24,10 @@ Get the web application running on localhost:7775 (127.0.0.1:7775)
 	a. For ease of organization, create a folder name 'WEBD-3012_Assignment-11_rnguyen'
 
 	b. Push this folder to git using Git Desktop by following these steps
-	
 		i. File -> Add local repository
    		ii. Under Local path, browse to the created folder 'WEBD-3012_Assignment-11_rnguyen'
    		iii. Click 'Add repository'
-   
-   	iv. Click 'create a repository'
+   		iv. Click 'create a repository'
    
    	v.  Fill in the fields and select your preferred options, at minimum, assign a name & description and select 'Initialize this repository with a README' to create an initial commit with a README.md file to the new repository
    
@@ -87,7 +86,7 @@ Get the web application running on localhost:7775 (127.0.0.1:7775)
 	m. Go to http://localhost:5173/, and refresh the page to ensure the update takes effect.
 	   This confirms that the application works correctly on the local host machine before being containerized with Docker.
 
-4. **Create a docker container with the name “nguyen_roline_coding_assignment11”**
+5. **Create a docker container with the name “nguyen_roline_coding_assignment11”**
 
    3A. **Update vite.config.js so Docker can forward the port**
    
