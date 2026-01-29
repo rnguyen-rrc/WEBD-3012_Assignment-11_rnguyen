@@ -20,16 +20,17 @@ Get the web application running on localhost:7775 (127.0.0.1:7775)
 2. **Create a React app using vite in VS Studio Code**
    
 	a. For ease of organization, create a folder name 'WEBD-3012_Assignment-11_rnguyen'
+
 	b. Push this folder to git using Git Desktop by following these steps
-   		i. File -> Add local repository
-   		ii. Under Local path, browse to the created folder 'WEBD-3012_Assignment-11_rnguyen'
-   		iii. Click 'Add repository'
-   		iv. Click 'create a repository'
-   		v.  Fill in the fields and select your preferred options, at minimum, assign a name & description and select 'Initialize this repository with a README' to create an initial commit with a README.md file to the new repository
-   		vi. Click 'Create repository'
-   		vii. At this step, the new repository only exists on our local computer and we are the only one who can access the repository
-   		viii. In the repository bar at top, click Publish repository.
-   		ix. Code is set to Private by default, switch to public to instructor can access and do assessment, then click Publish Repository
+	i. File -> Add local repository
+   	ii. Under Local path, browse to the created folder 'WEBD-3012_Assignment-11_rnguyen'
+   iii. Click 'Add repository'
+   iv. Click 'create a repository'
+   v.  Fill in the fields and select your preferred options, at minimum, assign a name & description and select 'Initialize this repository with a README' to create an initial commit with a README.md file to the new repository
+   vi. Click 'Create repository'
+   vii. At this step, the new repository only exists on our local computer and we are the only one who can access the repository
+   viii. In the repository bar at top, click Publish repository.
+   ix. Code is set to Private by default, switch to public to instructor can access and do assessment, then click Publish Repository
    Now you've created and published your repository
    
 	c. Inside VS Studio Code, click on icon '><' at bottom left to connect to WSL
