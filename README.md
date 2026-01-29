@@ -19,21 +19,33 @@ Get the web application running on localhost:7775 (127.0.0.1:7775)
 
 2. **Create a React app using vite in VS Studio Code**
    
-	a. For ease of organization, created a folder name 'WEBD-3012_Assignment-11_rnguyen'
-	b. Inside VS Studio Code, click on icon '><' at bottom left to connect to WSL
-	c. File -> Open folder -> copy the following command to open the folder
+	a. For ease of organization, create a folder name 'WEBD-3012_Assignment-11_rnguyen'
+	b. Push this folder to git using Git Desktop by following these steps
+   		i. File -> Add local repository
+   		ii. Under Local path, browse to the created folder 'WEBD-3012_Assignment-11_rnguyen'
+   		iii. Click 'Add repository'
+   		iv. Click 'create a repository'
+   		v.  Fill in the fields and select your preferred options, at minimum, assign a name & description and select 'Initialize this repository with a README' to create an initial commit with a README.md file to the new repository
+   		vi. Click 'Create repository'
+   		vii. At this step, the new repository only exists on our local computer and we are the only one who can access the repository
+   		viii. In the repository bar at top, click Publish repository.
+   		ix. Code is set to Private by default, switch to public to instructor can access and do assessment, then click Publish Repository
+   Now you've created and published your repository
+   
+	c. Inside VS Studio Code, click on icon '><' at bottom left to connect to WSL
+	d. File -> Open folder -> copy the following command to open the folder
 
 		/mnt/c/Users/roline/OneDrive/Documents/TERM 3/WEBD-3012 Business Systems Build and Testing/Coding Assignments/WEBD-3012_Assignment-11_rnguyen
 
-	d. From VS Studio Code, Terminal window, type the following command to create a subfolder name `rnguyen-a11`:
+	e. From VS Studio Code, Terminal window, type the following command to create a subfolder name `rnguyen-a11`:
 
     	mkdir rnguyen-a11
 
-	e. From VS Studio Code, Terminal window, type the following command to move to folder 'rnguyen-a11'
+	f. From VS Studio Code, Terminal window, type the following command to move to folder 'rnguyen-a11'
 
 		cd rnguyen-a11
 
-	f. From VS Studio Code, Terminal window, type the following command to create a react project using vite
+	g. From VS Studio Code, Terminal window, type the following command to create a react project using vite
 
 		npm create vite@latest .
 
@@ -43,26 +55,26 @@ Get the web application running on localhost:7775 (127.0.0.1:7775)
 		Install with nmp and start now? Yes
 		Click Enter, and wait for the installation to finish.
 
-	g. Once installation is finished, the terminal window returned the following info:
+	h. Once installation is finished, the terminal window returned the following info:
 
   		➜  Local:   http://localhost:5173/
  		  ➜  Network: use --host to expose
   		➜  press h + enter to show help
 
-	h. Go to your browser, open http://localhost:5173/, it will load the default Vite + React page to confirm the app runs successfully
+	i. Go to your browser, open http://localhost:5173/, it will load the default Vite + React page to confirm the app runs successfully
 	
 	Now we will update source code to meet the assignment's requirement which is to create a development environment that displays a h1 tag with the text “Codin 1”
 	
-	i. In VS Studio Code, from the left panel, open app_a11 -> src -> App.jsx
-	j. Update the React application to display an h1 element with the text Codin 1 (see App.jsx for implementation details)
+	j. In VS Studio Code, from the left panel, open app_a11 -> src -> App.jsx
+	k. Update the React application to display an h1 element with the text Codin 1 (see App.jsx for implementation details)
 		
-	k. Refresh the page http://localhost:5173/. If it doesn't show updates, from VS Studio Code, Terminal window, type the following command to stop the app and run it again
+	l. Refresh the page http://localhost:5173/. If it doesn't show updates, from VS Studio Code, Terminal window, type the following command to stop the app and run it again
 
 		Ctrl + C
 
 		npm run dev
    
-	l. Go to http://localhost:5173/, and refresh the page to ensure the update takes effect.
+	m. Go to http://localhost:5173/, and refresh the page to ensure the update takes effect.
 	   This confirms that the application works correctly on the local host machine before being containerized with Docker.
 
 4. **Create a docker container with the name “nguyen_roline_coding_assignment11”**
